@@ -3,8 +3,7 @@ pipeline {
     /* Slave resembles the server on which the job will be build on */
     stages {
          stage('Clone repository') {
-             steps {
-                 echo 'cloning' }
+             
               steps {
                 sh "./deploy.sh"
          /* Let's make sure we have the repository cloned to our workspace */
