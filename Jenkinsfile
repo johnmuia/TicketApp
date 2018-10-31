@@ -5,7 +5,7 @@ pipeline {
          stage('Clone repository') {
              
               steps {
-                sh "./deploy.sh"
+                sh "deploy.sh"
          /* Let's make sure we have the repository cloned to our workspace */
        }
      }
