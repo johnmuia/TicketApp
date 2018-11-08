@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'Jenkins-agent' }
+    agent { label 'Jenkins-node' }
     /* Slave resembles the server on which the job will be build on */
     stages {
          stage('Clone repository') {
